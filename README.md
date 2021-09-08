@@ -22,3 +22,8 @@ See [build script](.github/workflows/build.yml).<br/>
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.<br/>
 本字型以 SIL Open Font License 版本 1.1 發佈。
+
+## See Also 另見
+
+Serif font: [Fan Wun Ming](https://github.com/ayaka14732/FanWunMing).<br/>
+襯線字體：[繁媛明朝](https://github.com/ayaka14732/FanWunMing)。
