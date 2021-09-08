@@ -24,8 +24,7 @@ for input_file in fonts/*.ttc; do
         -o $output_file \
         -n config/name.json \
         --ttc-index=0 \
-        --font-version=$font_version \
-        --twp
+        --font-version=$font_version
 
     # twp
     python -m OpenCCFontGenerator \
@@ -33,5 +32,6 @@ for input_file in fonts/*.ttc; do
         -o $output_file_twp \
         -n config/name-twp.json \
         --ttc-index=0 \
-        --font-version=$font_version
+        --font-version=$font_version \
+        --twp
 done
