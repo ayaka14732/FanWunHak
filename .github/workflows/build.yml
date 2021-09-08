@@ -1,0 +1,32 @@
+name: Build
+
+on:
+  push
+
+jobs:
+  build:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install otfcc
+      run: |
+        brew tap caryll/tap
+        brew install otfcc-mac64
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Build
+      run: |
+        ./build.sh
+    - name: Copy license file
+      run: cp LICENSE output
+    - name: Upload font files
+      uses: actions/upload-artifact@v2
+      with:
+        name: FanWunHak
+        path: output/*

@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 100;
+  src: url("../output/FanWunHak-EL.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 300;
+  src: url("../output/FanWunHak-L.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 400;
+  src: url("../output/FanWunHak-N.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 500;
+  src: url("../output/FanWunHak-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 600;
+  src: url("../output/FanWunHak-M.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 700;
+  src: url("../output/FanWunHak-B.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test";
+  font-weight: 900;
+  src: url("../output/FanWunHak-H.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 100;
+  src: url("../output/FanWunHak-TW-EL.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 300;
+  src: url("../output/FanWunHak-TW-L.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 400;
+  src: url("../output/FanWunHak-TW-N.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 500;
+  src: url("../output/FanWunHak-TW-R.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 600;
+  src: url("../output/FanWunHak-TW-M.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 700;
+  src: url("../output/FanWunHak-TW-B.ttf") format("truetype");
+}
+@font-face {
+  font-family: "FanWunHak-Test-TW";
+  font-weight: 900;
+  src: url("../output/FanWunHak-TW-H.ttf") format("truetype");
+}
+
+:lang(en) { font-family: sans-serif, sans-serif; }
+:lang(zh-CN) { font-family: 'FanWunHak-Test', serif; }
+:lang(zh-CN).tw { font-family: 'FanWunHak-Test-TW', serif; }
+
+.w100 { font-weight: 100; }
+.w300 { font-weight: 300; }
+.w400 { font-weight: 400; }
+.w500 { font-weight: 500; }
+.w600 { font-weight: 600; }
+.w700 { font-weight: 700; }
+.w900 { font-weight: 900; }
