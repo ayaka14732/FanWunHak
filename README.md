@@ -2,7 +2,7 @@
 
 ![](demo.png)
 
-Fan Wun Hak is a Simplified-Chinese-to-Traditional-Chinese font based on [GenYoGothic](https://github.com/ButTaiwan/genyog-font). This font can handle the one-to-many problem in the conversion between Simplified Chinese and Traditional Chinese. GenYoGothic itself is a free font based on Source Han Serif.<br/>
+Fan Wun Hak is a Simplified-Chinese-to-Traditional-Chinese font based on [GenYoGothic](https://github.com/ButTaiwan/genyog-font). This font can handle the one-to-many problem in the conversion between Simplified Chinese and Traditional Chinese. GenYoGothic itself is a free font based on Source Han Sans.<br/>
 「繁媛黑體」是基於[源樣黑體](https://github.com/ButTaiwan/genyog-font)開發的簡轉繁字型，能處理「一簡對多繁」。源樣黑體是基於思源黑體的開放原始碼字型。
 
 ## Design 設計
